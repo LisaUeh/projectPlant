@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🪴Project-Plants</title>
+    <style>
+        h1 {
+
+        }
+        body {
+            background-color: #88d86e;
+            text-align: center;
+            color: rgb(113, 66, 66);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 200;
+        }
+        img {
+            border: 5px solid white;
+            border-radius: 4px;
+        }
+        hr {
+            border: none;
+            border-top: 3px double white;
+            color: #333;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+        }
+        button {
+            border-radius: 25px;
+            margin: 0 auto;
+            display: block;
+            background-color: white;
+            border: 1px solid;
+            color: rgb(113, 66, 66);
+            font-size: 16px;
+            line-height: 22px;
+            padding: 10px 24px;
+            text-decoration: none;
+            transition: all 200ms ease;
+        }
+        button:hover {
+        color: white;
+        background: rgb(32, 97, 32);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Plant Mom's Club
+    </h1>
+    <h2>
+        <em>"I have enough plants...." - No one ever.</em>
+    </h2>
+    <p>
+        <img src="https://cdn.shopify.com/s/files/1/0511/7945/4662/files/house-plants-decor-grouping-0213.jpg" width="300" alt="plants">
+    </p>
+    <hr>
+    <div>
+        <strong> Plants Can Support Body & Mind </strong></br>
+        Most of us live in areas that are not as close to nature as we'd like: our concrete jungles are a far cry from the wild habitats we are adapted to. By having plants at home, you can create your own green oasis. The good news is that your houseplants bring the positive effects we experience in nature into your home. This can benefit your wellbeing in several ways.
+    </br>
+    </br>
+        <strong> Support Your Mental Wellbeing </strong></br>
+        Don't get us wrong, in many ways the technology and gadgets we surround ourselves with have changed our lives for the better. Yet, they also mean we're spending a lot of time in front of screens, shining blue light at us, which drains our focus and concentration. But evidence suggests introducing plants to your office to increase productivity and focus.
+    </br>
+        You've probably noticed that you tend to be in a better mood after spending some time in nature. Psychologists associate this emotional uplift with the colour green. It makes us feel healthy and vital. Create a better work environment for yourself by adding some greenery to your side table, for example the Philodendron Atom.
+    </div>
+    </br>
+    <span>
+        To learn more about how plants can shine a light in your life, see here:
+        <a href="https://bloomboxclub.ie/collections/easy-care-plants"> Learn More</a>
+    </span>
+    </br>
+    </br>
+    <button>
+        Buy A Plant
+    </button>
+    <script>
+    function buyAPlant() {
+    let name = prompt("What is your name?");
+    let plant = prompt("Are you a parent to a plant?");
+        if (plant === "Yes" || plant === "yes") {
+        alert(`Hi ${name} Welcome to the Plant Mom's Club!`);
+        } 
+        else {
+        alert("Become a Plant Mom today!"); 
+        }
+    }
+    let applyNowButton = document.querySelector("button");
+    buyButton.addEventListener("click", buyAPlant);
+    </script>
+</body>
+</html>
